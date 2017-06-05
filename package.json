@@ -1,0 +1,37 @@
+{
+  "name": "concursapp",
+  "version": "1.0.0",
+  "description": "Web Service para aplicação de concurso publico",
+  "main": "Server.js",
+  "scripts": {
+    "test": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piiuzera/concursapp.git"
+  },
+  "author": "Matheus Amaro (matheus.amaro@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piiuzera/concursapp/issues"
+  },
+  "homepage": "https://github.com/piiuzera/concursapp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "colors": "^1.1.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.4",
+    "request": "^2.81.0",
+    "run-sequence": "^1.2.2",
+    "validatorjs": "^3.13.3"
+  }
+}
