@@ -26,8 +26,8 @@ var RouterCopasa 	= require('./router/RouterCopasa');
 
 		App.use('/crawler/copasa/', RouterCopasa.GetRouter());
 
-		App.listen(5006, function() {
-			console.log("Server has Started: http://localhost:5006");
+		App.listen(5001, function() {
+			console.log("Server has Started: http://localhost:5001");
 
 			Index.Init();
 		});
