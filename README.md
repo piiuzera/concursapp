@@ -4,6 +4,14 @@
 
 ## Initializing
 
+Run this file
+
+```
+Install.sh
+```
+
+Or
+
 Run this command on the terminal:
 
 ```
